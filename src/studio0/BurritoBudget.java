@@ -14,7 +14,7 @@ public class BurritoBudget {
 		double burritoPrice = 7.50;
 		double averageWeeklyPrice = averageWeeklyBurritos * burritoPrice;
 		averageWeeklyPrice = Math.round(averageWeeklyPrice*100);
-		averageWeeklyPrice = averageWeeklyPrice / 100;
+		averageWeeklyPrice = averageWeeklyPrice / 10;
 
 		System.out.println("You have spent an average of $" + averageWeeklyPrice + " per week on burritos.");
 	
